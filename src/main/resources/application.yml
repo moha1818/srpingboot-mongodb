@@ -1,0 +1,13 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@107.167.5.208:27017/admin
+server:
+  port: 80
+
+my:
+  webserver:
+      corePoolSize: 10
+      maxPoolSize: 50
+      keepAliveSeconds: 60
